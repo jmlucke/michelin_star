@@ -1,0 +1,52 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    /* background-color: #333; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: right;
+}
+
+#search-section {
+    display: flex;
+    margin: 0 auto;
+}
+
+#scrolling-text-section {
+    white-space: nowrap;
+}
+
+p.scrolling-text__right {
+    position: relative;
+    text-align: left;
+    animation: marquee 60s linear infinite;
+}
+p.scrolling-text__left {
+    position: relative;
+    text-align: left;
+    animation: marquee-reverse 60s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
