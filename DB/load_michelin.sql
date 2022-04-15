@@ -1,4 +1,4 @@
-LOAD DATA local INFILE 'michelin__cleaned.csv' 
+LOAD DATA INFILE 'michelin_my_maps.csv' 
 INTO TABLE michelin.michelin_star 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
