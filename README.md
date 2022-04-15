@@ -1,6 +1,6 @@
 # Michelin Star
 
-A project that uses the following data: https://www.kaggle.com/datasets/jackywang529/michelin-restaurants
+A project that uses the following data: https://www.kaggle.com/datasets/ngshiheng/michelin-guide-restaurants-2021
 
 Use the following to start the project:
 
