@@ -18,3 +18,6 @@ You can import data from `michelin__clearned.csv` into a DB of your choice. I us
 2) Add an actual server (maybe node)
 3) Add an API so other applications can use the data
 4) (Maybe) Scrape websites in the data for images and descriptions of websites
+5) (Maybe) Pull country/city fields out of the address
+6) (Maybe) convert currency to something standardized (USD)
+    6.1) This is somewhat done, still need a few currencies
