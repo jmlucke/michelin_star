@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
     <!-- Custom styles: -->
-    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="/css/style.css" media="all">
     <!-- Custom JS -->
-    <script src="cuisines.js" defer></script>
+    <script src="/js/cuisines.js" defer></script>
 </head>
 <body>
     <div id="content">
@@ -28,8 +28,10 @@
         </section>
         <!-- Search: -->
         <section id="search-section">
-            <input type="text">
-            <button>Search</button>
+            <form id=search-form" action="/search" meathod="GET">
+                <input type="text" id="query" name="query">
+                <button type="submit">Search</button>
+            </form>
         </section>
         <!-- Scrolling text: -->
         <section id="scrolling-text-section">
