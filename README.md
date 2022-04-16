@@ -20,4 +20,4 @@ You can import data from `michelin__clearned.csv` into a DB of your choice. I us
 4) (Maybe) Scrape websites in the data for images and descriptions of websites
 5) (Maybe) Pull country/city fields out of the address
 6) (Maybe) convert currency to something standardized (USD)
-    6.1) This is somewhat done, still need a few currencies
+  - This is somewhat done, still need a few currencies
