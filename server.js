@@ -16,12 +16,13 @@ app.use(cors(corsOptions));
 app.use(express.static('public'));
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
 app.get('/search', (req, res) => {
     const query = req.query.query;
-    res.send(`Your query: ${query}`);
+    //res.send(`Your query: ${query}`);
+    res.sendFile(path.join(__dirname, 'public/search.html'));
 });
 
 
