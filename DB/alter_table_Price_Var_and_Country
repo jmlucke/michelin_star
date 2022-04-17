@@ -1,0 +1,8 @@
+--Add Price Variacne 
+ALTER TABLE michelin_star  
+ADD COLUMN PriceVariance INT(15) as (MaxPrice - MinPrice)
+
+
+--Add Country as seperate field
+ALTER TABLE michelin_star  
+ADD COLUMN Country varchar(256) as (SUBSTRING_INDEX(Address, ",", -1)) 
