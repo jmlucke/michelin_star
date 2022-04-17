@@ -22,11 +22,13 @@
             </form>
         </section>
         <section id="results-section">
+        {{#each results}}
             <div class="search-result">
-                <h2 class="restaurant-name">Testaurant</h2>
-                <p class="restaurant-cuisine">Testaurant is a test restaurant</p>
-                <a class="restaurant-url" href="www.codymaxie.com">Testaurant.com</a>
+                <h2 class="restaurant-name">{{name}}</h2>
+                <p class="restaurant-cuisine">{{cuisine}}</p>
+                <a class="restaurant-url" href="{{websiteurl}}">{{name}} Website</a>
             </div>
+        {{/each}}
         </section>
     </div>
 </body>
